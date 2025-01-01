@@ -1,0 +1,15 @@
+{
+  "name": "@yaelg/site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "PORT=9431 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "PORT=9431 nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@yaelg/boing": "workspace:*"
+  }
+}
