@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev:template": "(cd template && bun run dev)",
+    "dev:site": "(cd site && bun run dev)"
+  },
+  "workspaces": [
+    "template",
+    "site"
+  ],
+  "devDependencies": {
+    "@antfu/eslint-config": "3.12.1",
+    "eslint": "9.17.0",
+    "eslint-plugin-perfectionist": "4.4.0"
+  },
+  "resolutions": {
+    "tailwindcss": "4.0.0-beta.6"
+  }
+}
