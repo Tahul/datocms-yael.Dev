@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@layer base {
+  .ring-texture {
+    @apply ring-2 ring-offset-1 dark:ring-offset-gray-800/50 ring-offset-neutral-100/50 ring-neutral-200 dark:ring-gray-800;
+  }
+  
+  .gradient-texture {
+    @apply bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900;
+  }
+  
+  .gradient-texture-light {
+    @apply bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-800;
+  }
+  
+  .gradient-texture-reverse {
+    @apply bg-gradient-to-t from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900;
+  }
+}
