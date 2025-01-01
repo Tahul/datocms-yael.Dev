@@ -1,0 +1,77 @@
+{
+  "commit-prompt.addAllByDefault": true,
+  "commit-prompt.autoAssignOpenedIssues": false,
+  "commit-prompt.skipCommitBody": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "eslint.useFlatConfig": true,
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "format/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "peacock.color": "#3c366b",
+  "prettier.enable": false,
+  "references.preferredLocation": "peek",
+  "search.exclude": {
+    "**/.git/**/*": true,
+    "**/.output": true,
+    "**/.turbo": true,
+    "**/dist": true,
+    "**/pnpm-lock.yaml": true,
+    "**/turbo-test.log": true
+  },
+  "task.autoDetect": "off",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#4f478d",
+    "activityBar.background": "#4f478d",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#2a1815",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#4f478d",
+    "statusBar.background": "#3c366b",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#4f478d",
+    "statusBarItem.remoteBackground": "#3c366b",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#3c366b",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#3c366b99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "[html]": {
+    "editor.wordWrap": "bounded"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
